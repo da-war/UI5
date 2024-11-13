@@ -1,0 +1,14 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    controllerName="sap.ui.demo.walkthrough.controller.App"
+    >
+    
+
+
+   <VBox >
+    <Button text="Increment" press="increment" />
+   <Text id="counter" text="0"></Text>
+   <Button text="Decrement" press="decrement"></Button>
+   </VBox>
+</mvc:View>
